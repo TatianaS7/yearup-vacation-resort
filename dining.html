@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade Hill Resort</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <a class="mainLogo" href="/index.html" > <img src="/images/jadeHillLogo.png" alt="Jade Hill Resort Logo"> </a>
+
+    <div class="topnav">
+        <a href="/rooms.html">Rooms</a>
+        <a href="/dining.html">Dining</a>
+        <a href="/rental.html">Rental</a>
+        <a href="/activities.html">Activities</a>
+        <a href="/overnight.html">Book Now</a>
+
+        <a href="#" class="split">Join</a>
+        <a class="split">|</a>
+        <a href="#" class="split"> Sign In</a>
+    </div>
+
+<h1 class="dining">Dining</h1>
+<div class="dining-options">
+    <input type="radio" name="diningOption" onclick="showAsYouGo()">Pay as you go
+    <input type="radio" name="diningOption" onclick="showAllInclusive()">All-Inclusive
+</div>
+
+<div id="asYouGo">
+    <h3 class="dining">Gold Strike Diner</h3>
+    <div class="dining-content">
+        <div class="dining-img">
+            <img src="/images/diner.jpg" alt="inside of Gold Strike Diner">
+        </div>
+        <div class="dining-txt">
+            <p>Our extensive menu offers a diverse array of delicious options to cater to various tastes and preferences.
+                From hearty breakfast classics like fluffy pancakes and sizzling bacon to mouthwatering burgers, sandwiches,
+                and flavorful salads, the diner ensures there's something for everyone.</p>
+        </div>
+    </div>
+    <br><br><br><br>
+    <h3 class="dining">Saints + Council</h3>
+    <div class="dining-content">
+        <div class="dining-img">
+            <img src="/images/saintsCouncil.jpg" alt="inside Saints + Council">
+        </div>
+        <div class="dining-txt">
+            <p>The menu at Saints + Council showcases a harmonious blend of traditional and contemporary cuisine, curated
+                by a team of talented chefs. Each dish is crafted with meticulous attention to detail, resulting in a
+                symphony
+                of flavors that tantalize the taste buds. From artfully plated appetizers to indulgent main courses and
+                decadent
+                desserts, the menu offers a diverse selection to cater to various palates and dietary preferences.</p>
+        </div>
+    </div>
+    
+    <h3 class="dining">The Garden Retreat</h3>
+    <div class="dining-content">
+        <div class="dining-img">
+            <img src="/images/gardenRetreat.jpg" alt="inside The Garden Retreat">
+        </div>
+        <div class="dining-txt">
+            <p>The Garden Retreat, provides a serene and picturesque setting amidst lush greenery and blooming flowers. This
+                al fresco
+                restaurant offers a farm-to-table concept, featuring fresh organic produce sourced from local farms. Guests
+                can delight
+                in delectable salads, artisanal sandwiches, and delightful pastries while immersing themselves in the
+                tranquility of nature.</p>
+        </div>
+    </div>
+</div>
+<br><br><br>
+
+
+<div id="all-inclusive" style="display: none;">
+    <table>
+        <tr>
+            <th>Plan</th>
+            <th>Adult</th>
+            <th>Child</th>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>$62.50/day</td>
+            <td>$49.99/day</td>
+        </tr>
+        <tr>
+            <td>Premium(incl. drinks)</td>
+            <td>$80.00/day</td>
+            <td>$49.99/day</td>
+        </tr>
+    </table>
+</div>
+
+<script src="/main.js"></script>
+</body>
+</html>
